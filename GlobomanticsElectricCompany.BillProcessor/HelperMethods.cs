@@ -88,44 +88,6 @@ namespace GlobomanticsElectricCompany.BillProcessor
             };
         }
 
-        public static DateTime[] CreateHistoricalUsageChartDatesArray()
-        {
-            return new[]
-            {
-                new DateTime(2015, 1, 1),
-                new DateTime(2015, 2, 1),
-                new DateTime(2015, 3, 1),
-                new DateTime(2015, 4, 1),
-                new DateTime(2015, 5, 1),
-                new DateTime(2015, 6, 1),
-                new DateTime(2015, 7, 1),
-                new DateTime(2015, 8, 1),
-                new DateTime(2015, 9, 1),
-                new DateTime(2015, 10, 1),
-                new DateTime(2015, 11, 1),
-                new DateTime(2015, 12, 1)
-            };
-        }
-
-        public static double[] CreateHistoricalUsageChartValuesArray()
-        {
-            return new double[]
-            {
-                850,
-                897,
-                904,
-                976,
-                1034,
-                1087,
-                1145,
-                1432,
-                1350,
-                1293,
-                903,
-                875
-            };
-        }
-
         public static DataTable CreateChargeSummaryDataTable()
         {
             var chargeSummary = CreateChargeSummary();

@@ -49,7 +49,6 @@
     <Compile Include="Builder\BillDetailsTableBuilder.cs" />
     <Compile Include="Builder\BillSummaryTableBuilder.cs" />
     <Compile Include="Builder\CompanyContactInfoBuilder.cs" />
-    <Compile Include="Builder\HistoricalUsageChartBuilder.cs" />
     <Compile Include="GlobalDocumentSettings.cs" />
     <Compile Include="Builder\PaymentStubBuilder.cs" />
     <Compile Include="Builder\PaymentStubPerforatedLineBuilder.cs" />

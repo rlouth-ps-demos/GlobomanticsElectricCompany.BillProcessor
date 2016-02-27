@@ -18,9 +18,6 @@ namespace GlobomanticsElectricCompany.BillProcessor
             //Create bill details table using Document Builder
             BillDetailsTableBuilder.Build();
 
-            //Create historical usage chart
-            HistoricalUsageChartBuilder.Build();
-
             //Create perforated line for payment stub
             PaymentStubPerforatedLineBuilder.Build();
 
