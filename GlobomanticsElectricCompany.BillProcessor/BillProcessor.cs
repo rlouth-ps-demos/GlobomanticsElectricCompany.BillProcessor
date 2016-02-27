@@ -12,11 +12,11 @@ namespace GlobomanticsElectricCompany.BillProcessor
             //Create company contact info
             CompanyContactInfoBuilder.Build();
 
-            //Create bill details table using Document Builder
-            BillDetailsTableBuilder.Build();
-
             //Create bill summary table inside a text box
             BillSummaryTableBuilder.Build();
+
+            //Create bill details table using Document Builder
+            BillDetailsTableBuilder.Build();
 
             //Create historical usage chart
             HistoricalUsageChartBuilder.Build();
